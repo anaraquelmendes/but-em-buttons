@@ -1,0 +1,52 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #fff;
+}
+
+.banner {
+  background-image: url("../images/starfield.png");
+}
+
+.banner-content {
+  position: absolute;
+  top: 14em;
+  text-shadow: 1px 1px 30px rgba(255, 255, 255, .7);
+}
+
+span {
+  color: #90ccc3;
+}
+
+.btn {
+  border-radius: 8px;
+  border-color: #b4fff4;
+  padding: .5em;
+}
+
+.btn:hover {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #b4fff4;
+}
+
+.btn-ghost:hover .i-32 {
+  transform: translateY(-.25em);
+}
+
+.icon,
+.btn {
+  transition: all 250ms ease;
+}
+
+.icon:hover, .icon:active {
+  transform: translate(0, -.25em);
+}
+
+.btn-ghost {
+  transition: all 250ms ease;
+  border-bottom: 3px solid #b4fff4;
+}
+
+.btn:focus {
+  top: 1em;
+  transform: translate(0, .25em);
+}
